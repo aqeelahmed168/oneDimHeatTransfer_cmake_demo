@@ -1,0 +1,13 @@
+# Read the namelist starting with &<namelist>
+
+&physics
+    alpha=1.0,
+    L_fin=1.0,
+    T_chip=1.0,
+    T_air=1.0
+/
+
+&numerics
+    dt=0.01,
+    nodes=5
+/
